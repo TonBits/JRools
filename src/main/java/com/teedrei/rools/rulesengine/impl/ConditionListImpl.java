@@ -47,10 +47,7 @@ public class ConditionListImpl implements Condition
 
 	/*
 	 * (non-Javadoc)
-	 * 
-	 * @see
-	 * com.teedrei.simplerulesengine.rulesengine.rules.Condition#evaluate(com.teedrei.simplerulesengine.rulesengine.
-	 * rules.Facts)
+	 * @see com.teedrei.rools.rulesengine.Condition#evaluate(com.teedrei.rools.rulesengine.Facts)
 	 */
 	@Override
 	public boolean evaluate(Facts facts)

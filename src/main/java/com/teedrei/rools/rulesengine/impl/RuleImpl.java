@@ -58,8 +58,7 @@ public class RuleImpl extends AbstractRule
 
 	/*
 	 * (non-Javadoc)
-	 * 
-	 * @see com.teedrei.simplerulesengine.rulesengine.rules.Rule#getCondition()
+	 * @see com.teedrei.rools.rulesengine.Rule#getCondition()
 	 */
 	@Override
 	public Condition getCondition()
@@ -69,8 +68,7 @@ public class RuleImpl extends AbstractRule
 
 	/*
 	 * (non-Javadoc)
-	 * 
-	 * @see com.teedrei.simplerulesengine.rulesengine.rules.Rule#getActions()
+	 * @see com.teedrei.rools.rulesengine.Rule#getActions()
 	 */
 	@Override
 	public List<Action> getActions()
@@ -80,8 +78,7 @@ public class RuleImpl extends AbstractRule
 
 	/*
 	 * (non-Javadoc)
-	 * 
-	 * @see com.teedrei.simplerulesengine.rulesengine.rules.Rule#getRules()
+	 * @see com.teedrei.rools.rulesengine.Rule#getRules()
 	 */
 	@Override
 	public List<Rule> getRules()
@@ -91,8 +88,7 @@ public class RuleImpl extends AbstractRule
 
 	/*
 	 * (non-Javadoc)
-	 * 
-	 * @see com.teedrei.rools.rulesengine.rules.Rule#applyRule(com.teedrei.rools.rulesengine.rules.Facts)
+	 * @see com.teedrei.rools.rulesengine.Rule#applyRule(com.teedrei.rools.rulesengine.Facts)
 	 */
 	@Override
 	public void applyRule(Facts facts)
